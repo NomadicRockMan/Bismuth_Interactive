@@ -17,9 +17,11 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_hi</object>
+    <object>objects\obj_whateven</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room_testy_testy_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
