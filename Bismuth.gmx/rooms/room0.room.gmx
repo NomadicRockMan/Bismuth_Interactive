@@ -76,8 +76,14 @@
     <instance objName="obj_GUNMAN" x="624" y="432" name="inst_7D690B16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GUNMAN" x="592" y="480" name="inst_4B1803EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_GUNMAN" x="848" y="416" name="inst_11D23BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_HAROLD" x="736" y="720" name="inst_6547767D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="704" y="720" name="inst_6547767D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_STATIC_JOE" x="656" y="672" name="inst_5FD1C81F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="656" y="624" name="inst_0545B4EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="656" y="720" name="inst_9335178E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="704" y="624" name="inst_844D4F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="608" y="624" name="inst_255795F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="608" y="672" name="inst_FA392D0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_HAROLD" x="704" y="672" name="inst_683581C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_TERRAIN_1" x="272" y="96" w="32" h="32" xo="32" yo="0" id="10000429" name="inst_997A047D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
