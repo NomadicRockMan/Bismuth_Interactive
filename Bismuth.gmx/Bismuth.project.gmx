@@ -18,15 +18,10 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_hi</object>
-<<<<<<< HEAD
     <object>objects\awdaWd</object>
-=======
-    <object>objects\obj_whateven</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
-    <room>rooms\room_testy_testy_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
