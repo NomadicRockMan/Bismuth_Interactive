@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sp_LOGO</sprite>
     <sprite>sprites\sp_COOL_KID</sprite>
+    <sprite>sprites\spr_dicklicker</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
