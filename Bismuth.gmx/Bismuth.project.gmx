@@ -11,9 +11,11 @@
     <sprite>sprites\sp_GHOST</sprite>
     <sprite>sprites\sp_STATIC_JOE</sprite>
     <sprite>sprites\sp_GUARD</sprite>
+    <sprite>sprites\sp_GUNMAN</sprite>
     <sprite>sprites\sp_HAROLD</sprite>
     <sprite>sprites\sp_BUSH</sprite>
     <sprite>sprites\sp_COLLIDE</sprite>
+    <sprite>sprites\sp_BULLET</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\ts_TERRAIN_1</background>
@@ -24,8 +26,10 @@
     <object>objects\obj_STATIC_JOE</object>
     <object>objects\obj_HAROLD</object>
     <object>objects\obj_GUARD</object>
+    <object>objects\obj_GUNMAN</object>
     <object>objects\obj_BUSH</object>
     <object>objects\obj_COLLIDE</object>
+    <object>objects\obj_BULLET</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

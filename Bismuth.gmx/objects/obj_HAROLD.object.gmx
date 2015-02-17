@@ -28,12 +28,43 @@
             <string>///Variables
 
 possesed = 0;
+hearts = 5;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
     <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Get Shot
+
+var inst = instance_place(x, y, obj_BULLET);
+
+if(inst != noone &amp;&amp; inst.shooter != id){
+hearts -= inst.damage;
+with(inst){
+instance_destroy();
+}
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -94,6 +125,7 @@ y = y + 2;
 
 if(place_meeting(x, y, obj_GHOST) &amp;&amp; keyboard_check_pressed(ord('E')) &amp;&amp; possesed == 0){
 possesed = 1;
+goodbad = "good";
 view_object[0] = id;
 with(obj_GHOST){
 instance_destroy();
@@ -102,6 +134,36 @@ instance_destroy();
 
 if(keyboard_check_pressed(ord('Q')) &amp;&amp; possesed == 1){
 possesed = 0;
+instance_create(x, y, obj_GHOST);
+goodbad = "null";
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Health and Stats
+
+if(hearts &lt;= 0){
+instance_destroy();
+}
+
+if(hearts &lt;= 0 &amp;&amp; possesed == 1){
 instance_create(x, y, obj_GHOST);
 }
 </string>
