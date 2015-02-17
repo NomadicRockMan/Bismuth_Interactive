@@ -52,20 +52,57 @@ corrupt = 0;
             <kind>1</kind>
             <string>///Yah that Just Happened
 
-if(keyboard_check(ord('A'))){
+if(keyboard_check(ord('A')) &amp;&amp; place_free(x + 1, y)){
 x = x - 1;
 }
 
-if(keyboard_check(ord('D'))){
+if(keyboard_check(ord('D')) &amp;&amp; place_free(x + 1, y)){
 x = x + 1;
 }
 
-if(keyboard_check(ord('W'))){
+if(keyboard_check(ord('W')) &amp;&amp; place_free(x + 1, y)){
 y = y - 1;
 }
 
-if(keyboard_check(ord('S'))){
+if(keyboard_check(ord('S')) &amp;&amp; place_free(x + 1, y)){
 y = y + 1;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Yah that Just Happened
+
+if(keyboard_check(ord('A')) &amp;&amp; place_free(x + 2, y)){
+x = x - 2;
+}
+
+if(keyboard_check(ord('D')) &amp;&amp; place_free(x + 2, y)){
+x = x + 2;
+}
+
+if(keyboard_check(ord('W')) &amp;&amp; place_free(x + 2, y)){
+y = y - 2;
+}
+
+if(keyboard_check(ord('S')) &amp;&amp; place_free(x + 2, y)){
+y = y + 2;
 }
 </string>
           </argument>
