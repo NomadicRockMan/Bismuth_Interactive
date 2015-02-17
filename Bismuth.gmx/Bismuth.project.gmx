@@ -8,10 +8,16 @@
   <sprites name="sprites">
     <sprite>sprites\sp_LOGO</sprite>
     <sprite>sprites\sp_COOL_KID</sprite>
-    <sprite>sprites\sp_Not_what_tucker_called_it</sprite>
+    <sprite>sprites\sp_DEFINITION_OF_CORRUPTION</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_COOL_KID</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\LAND_OF_COOL</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
