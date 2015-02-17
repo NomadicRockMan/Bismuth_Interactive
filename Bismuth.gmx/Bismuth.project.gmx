@@ -8,17 +8,18 @@
     <sound>sound\sound0</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
-    <sprite>sprites\sprite1</sprite>
-    <sprite>sprites\sprite2d</sprite>
+    <sprite>sprites\sp_GHOST</sprite>
+    <sprite>sprites\sp_STATIC_JOE</sprite>
+    <sprite>sprites\sp_HAROLD</sprite>
+    <sprite>sprites\sp_BUSH</sprite>
   </sprites>
-  <backgrounds name="background">
-    <background>background\background0</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_hi</object>
-    <object>objects\awdaWd</object>
+    <object>objects\obj_GHOST</object>
+    <object>objects\obj_STATIC_JOE</object>
+    <object>objects\obj_HAROLD</object>
+    <object>objects\obj_BUSH</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
