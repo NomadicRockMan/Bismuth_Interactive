@@ -9,6 +9,7 @@
     <sprite>sprites\sp_COOL_KID</sprite>
     <sprite>sprites\sp_COLLIDE</sprite>
     <sprite>sprites\sp_DEFINITION_OF_CORRUPTION</sprite>
+    <sprite>sprites\spr_happyguy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
